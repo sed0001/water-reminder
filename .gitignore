@@ -52,3 +52,7 @@ Thumbs.db
 *.pdf
 *.zip
 *.tar.gz
+
+# === Сам Dockerfile и dockerignore (не нужны внутри образа) ===
+Dockerfile
+.dockerignore
