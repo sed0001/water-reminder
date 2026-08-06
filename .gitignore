@@ -1,0 +1,54 @@
+*.db
+# === Секреты и конфиденциальные данные ===
+.env
+.env.local
+.env.*.local
+
+# === Виртуальное окружение ===
+venv/
+env/
+ENV/
+.venv
+
+# === Кэш и временные файлы Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# === IDE и редакторы ===
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.swo
+*.swp
+.DS_Store
+Thumbs.db
+
+# === Другое ===
+*.pdf
+*.zip
+*.tar.gz
